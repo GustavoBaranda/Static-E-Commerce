@@ -130,7 +130,7 @@ header a .fab {
   font-size: 18px;
 }
 
-.buttonc {
+.buttonc, .buttona {
   color: #fff;
   cursor: pointer;
   border: none;
@@ -140,11 +140,17 @@ header a .fab {
   text-align: center;
   width: 100%;
   font-size: 18px;
+  opacity: 0.9;
 }
 
-.buttonc:hover {
-  opacity: 0.7;
-  transition: .5s;
+.buttonc:hover, .buttona:hover, .butona:hover {
+  opacity: 1;
+  transition: .2s;
+  font-weight: bold;
+}
+
+.buttona {
+  background-color: #76b9f0;
 }
 
 .footer {
