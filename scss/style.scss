@@ -515,7 +515,7 @@ header a .fab {
 
     .contenidobx .imgbx {
         height: 200px;
-        transform: translateY(-50px);
+        transform: translateY(-10px);
     }
 
     .contenidobx .img::before {
@@ -530,7 +530,7 @@ header a .fab {
     }
 
     .close {
-        top: -50px;
+        top: -30px;
         right: -10px;
         background: #f3f3f3 url(../img/close.png);
         background-repeat: no-repeat;
